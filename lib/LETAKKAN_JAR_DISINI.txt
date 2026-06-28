@@ -1,0 +1,1 @@
+Taruh file mysql-connector-j-x.x.x.jar di folder ini (lihat BACA_SAYA.txt)

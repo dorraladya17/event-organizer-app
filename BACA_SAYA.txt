@@ -1,0 +1,30 @@
+=========================================================
+  APLIKASI EVENT ORGANIZER - PANDUAN CEPAT
+=========================================================
+
+ISI FOLDER INI:
+- src/eventorganizer/      -> 5 file kode Java (Koneksi, FormLogin, FormUtama, FormPendaftaran, Main)
+- database_event_organizer.sql  -> script untuk membuat database
+- lib/                      -> taruh file driver MySQL (mysql-connector-j-x.x.x.jar) di sini
+- nbproject/                -> file konfigurasi project NetBeans (jangan diubah-ubah)
+
+LANGKAH SINGKAT (lihat panduan detail dari Claude untuk gambar & penjelasan lengkap):
+
+1. Nyalakan Apache & MySQL di XAMPP Control Panel.
+2. Buka http://localhost/phpmyadmin, klik tab SQL, paste isi file
+   database_event_organizer.sql, klik Go.
+3. Download driver MySQL Connector/J (file .jar) dari:
+   https://dev.mysql.com/downloads/connector/j/
+   Pilih "Platform Independent", lalu download file .zip atau .tar.gz,
+   ekstrak, cari file bernama mysql-connector-j-x.x.x.jar
+   -> Taruh file jar tersebut ke dalam folder lib/ pada project ini.
+4. Buka NetBeans -> File -> Open Project -> pilih folder EventOrganizer ini.
+5. Klik kanan project EventOrganizer -> Properties -> Libraries ->
+   Add JAR/Folder -> pilih file jar di folder lib/ -> OK.
+6. Klik kanan project -> Clean and Build.
+7. Tekan F6 (atau klik kanan project -> Run) untuk menjalankan aplikasi.
+8. Login dengan:
+   Username : admin
+   Password : admin123
+
+Jika ada error, baca bagian "Troubleshooting" pada panduan lengkap.
